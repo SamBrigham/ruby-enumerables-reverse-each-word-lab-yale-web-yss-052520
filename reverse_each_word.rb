@@ -6,5 +6,5 @@ array1.collect do |element|
   element.reverse
   binding.pry
 end
-puts new_array
+puts array1
 end
