@@ -3,9 +3,9 @@ require 'pry'
 def reverse_each_word(string)
 array1 = string.split(" ")
 new_array = []
-array1.collect do |element| 
+new_array = array1.collect do |element| 
   element.reverse
   binding.pry
 end
-puts array1
+puts new_array
 end
