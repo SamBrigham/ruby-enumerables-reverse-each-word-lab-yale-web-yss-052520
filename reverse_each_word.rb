@@ -6,5 +6,5 @@ new_array = []
 array1.collect do |element| 
   new_array << element.reverse
 end
-puts new_array
+new_array.join()
 end
